@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.span {
+  color: var(--color-white);
+}
+.bumipay {
+  background: linear-gradient(
+    245.29deg,
+    #e2ebf5 2.39%,
+    #a690fc 23.38%,
+    #fc96bb 60.6%,
+    #ffc397
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.and-pay-later {
+  color: var(--color-gray-700);
+}
+.get-bumipay-and-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 84px;
+}
+.coming-this-spring {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.partnership-with-university {
+  margin: 0;
+}
+.coming-this-spring-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 35.2px;
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--color-gray-800);
+}
+.get-now-crypto {
+  position: relative;
+  font-size: var(--size-16-size-16-semibold-size);
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.get-now-crypto-later-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-3xl);
+  background-color: var(--color-mediumblue-100);
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.get-bumipay-and-pay-later-for-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-2xl);
+}
+.frame-icon,
+.hp-elite-dragonfly {
+  position: absolute;
+  overflow: hidden;
+}
+.hp-elite-dragonfly {
+  height: 87.42%;
+  width: 97.65%;
+  top: 0;
+  right: 0;
+  bottom: 12.58%;
+  left: 2.35%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-icon {
+  top: 181.32px;
+  left: 0;
+  width: 281.66px;
+  height: 293.68px;
+}
+.hp-elite-dragonfly-parent {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.landing-page-top,
+.landing-page-top-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.landing-page-top-inner {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-2xs);
+  justify-content: center;
+}
+.landing-page-top {
+  width: 1605px;
+  height: 515px;
+  flex-shrink: 0;
+  padding: var(--padding-2xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  background-image: url(./public/landing-page-top@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.paylater-with-crypto {
+  position: relative;
+  line-height: 84px;
+  background: linear-gradient(
+    245.29deg,
+    #6dc1dc 2.39%,
+    #a690fc 23.38%,
+    #fc96bb 60.6%,
+    #ffc397
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emojione-v1money-bag-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.paylater-with-crypto-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.image-1774-icon {
+  position: relative;
+  width: 1050px;
+  height: 225px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.get-now-crypto-later-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-3xl);
+  background-color: var(--color-mediumblue-100);
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.final-landing-page,
+.landing-page-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page-bottom {
+  background-color: var(--color-white);
+  width: 1605px;
+  height: 678px;
+  flex-shrink: 0;
+  gap: var(--gap-3xl);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+}
+.final-landing-page {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-10xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1200px) {
+  .coming-this-spring-container,
+  .get-bumipay-and-container {
+    text-align: left;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .get-now-crypto-later-wrapper {
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: var(--br-lg);
+  }
+  .get-bumipay-and-pay-later-for-parent {
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+  }
+  .frame-icon {
+    width: 200px;
+    height: 200px;
+  }
+  .landing-page-top-inner {
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+  }
+  .landing-page-top {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .coming-this-spring-container,
+  .get-bumipay-and-container {
+    text-align: center;
+  }
+  .get-bumipay-and-pay-later-for-parent,
+  .get-now-crypto-later-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .get-bumipay-and-pay-later-for-parent {
+    flex: unset;
+    height: auto;
+    align-self: stretch;
+  }
+  .hp-elite-dragonfly {
+    width: 600px;
+    height: 300px;
+  }
+  .hp-elite-dragonfly-parent,
+  .landing-page-top-inner {
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+  }
+  .landing-page-top-inner {
+    display: none;
+    width: auto;
+    flex: unset;
+  }
+  .landing-page-top {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-2xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .image-1774-icon {
+    align-self: stretch;
+    width: auto;
+    height: 150px;
+  }
+  .landing-page-bottom {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 428px) {
+  .paylater-with-crypto {
+    line-height: 84px;
+    text-align: center;
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+    opacity: 1;
+  }
+  .paylater-with-crypto.animate {
+    animation: 1s ease 0s 1 normal forwards scale-down-center;
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
+  .paylater-with-crypto-parent {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+    flex-direction: column;
+  }
+  .image-1774-icon {
+    width: 400px;
+    height: 150px;
+  }
+  .landing-page-bottom {
+    flex-direction: column;
+  }
+}

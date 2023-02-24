@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.pattern-elements-icon2 {
+  position: absolute;
+  top: 186px;
+  left: 122px;
+  width: 167.57px;
+  height: 167.57px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-child1 {
+  position: absolute;
+  top: 0;
+  left: 960px;
+  background-color: var(--color-whitesmoke-500);
+  width: 960px;
+  height: 1080px;
+}
+.fa-verification {
+  position: absolute;
+  top: 239px;
+  left: 179px;
+}
+.sign-up3 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.dropdown2,
+.links2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.links2 {
+  top: 20.67px;
+  left: 42.67px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.dropdown2 {
+  top: 20px;
+  left: 774.67px;
+  padding: 0 0 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+}
+.divider-top2,
+.footer2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-400);
+  width: 960px;
+  height: 0.67px;
+}
+.footer2 {
+  top: 1025px;
+  background-color: var(--color-white);
+  height: 55px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-poppins);
+}
+.frame-child2 {
+  position: absolute;
+  top: 540px;
+  left: 178px;
+  width: 325.5px;
+  height: 336.06px;
+}
+.using-an-authenticator {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.enter-the-code {
+  margin: 0;
+}
+.using-an-authenticator-container {
+  position: absolute;
+  top: 378px;
+  left: 178px;
+  font-size: var(--font-size-7xl);
+  letter-spacing: -0.02em;
+  color: rgba(23, 15, 73, 0.25);
+  text-align: left;
+  display: inline-block;
+  width: 599px;
+}
+.qr-code-icon {
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.log-in-with,
+.qr-code-icon,
+.scan-this-with {
+  position: relative;
+}
+.scan-this-with {
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-200);
+}
+.log-in-with-qr-code-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.password-item,
+.qr-code-parent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.qr-code-parent {
+  height: 75.2%;
+  bottom: 24.8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xl);
+}
+.password-item {
+  border: 0;
+  background-color: var(--color-white);
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-2xs);
+}
+.code {
+  position: absolute;
+  height: 29.09%;
+  width: 14.32%;
+  top: 33.74%;
+  left: 5.48%;
+  display: none;
+}
+.password2 {
+  position: absolute;
+  height: 8.63%;
+  width: 70.47%;
+  top: 80.61%;
+  right: 12.42%;
+  bottom: 10.76%;
+  left: 17.11%;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.submit,
+.vector-icon2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.submit {
+  font-size: var(--size-16-size-16-semibold-size);
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-dm-sans);
+  color: var(--f4f2f6);
+  text-align: left;
+  width: 61px;
+}
+.vector-icon2 {
+  width: 6.15px;
+  height: 10.45px;
+}
+.submit-parent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumblue-100);
+  box-shadow: 0 5px 26px 2px rgba(151, 150, 240, 0.5);
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-4xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.component-6-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.77%;
+  width: 70.47%;
+  top: 92.23%;
+  right: 12.42%;
+  bottom: 0;
+  left: 17.11%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component-6 {
+  position: absolute;
+  top: 244px;
+  left: 1142px;
+  width: 596px;
+  height: 591.76px;
+  font-size: 40px;
+  color: var(--color-darkslategray-200);
+}
+.pattern-elements-root {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-dm-sans);
+}

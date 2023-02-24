@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.payment-accepted-child {
+  position: relative;
+  width: 144px;
+  height: 144px;
+  flex-shrink: 0;
+}
+.payment-complete {
+  position: relative;
+}
+.stay-put-redirecting {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  font-weight: 500;
+  color: var(--color-gray-500);
+  display: inline-block;
+  width: 266px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.payment-accepted {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 140px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
